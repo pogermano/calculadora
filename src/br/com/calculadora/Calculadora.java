@@ -11,7 +11,8 @@ public class Calculadora {
 		a = scan.nextInt();
 		System.out.println("Digite o segundo número: ");
 		b = scan.nextInt();
-		scan.close();
+		scan.close(); 
+		
  
 		
 		System.out.println("O valor da soma dos números é : " + soma(a, b));
