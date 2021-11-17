@@ -12,7 +12,8 @@ public class Calculadora {
 		System.out.println("Digite o segundo número: ");
 		b = scan.nextInt();
 		scan.close();
-
+ 
+		
 		System.out.println("O valor da soma dos números é : " + soma(a, b));
 		System.out.println("O valor da subtração dos números é : " + subtracao(a, b));
 		System.out.println("O valor da multiplicação dos números é : " + multiplicacao(a, b));
